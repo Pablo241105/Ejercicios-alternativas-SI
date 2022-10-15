@@ -1,16 +1,16 @@
-usuSecreto = "juan"
-passSecreto = "12"
+usuSecreto = "pepe"
+passSecreto = "asdasd"
 
 usuario = input("Dime tu ususario: ")
-password = input("Dime tu contraseña: ")
+contraseña = input("Dime tu contraseña: ")
 
-while (usuSecreto!=usuario or passSecreto!=password):
+while (usuSecreto!=usuario or passSecreto!=contraseña):
     if (usuSecreto!=usuario):
         print("Error en el usuario")
         usuario = input("Dime tu ususario: ")
-    elif (passSecreto!=password):
+    elif (passSecreto!=contraseña):
         print("Error en el password")
-        password = input("Dime tu password: ")
+        password = input("Dime tu contraseña: ")
     
 
 
