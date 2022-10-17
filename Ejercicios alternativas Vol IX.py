@@ -17,4 +17,3 @@ vNumeros.insert(2,numero3)
 vNumeros.sort(reverse=False)
 
 print("Ya estan ordenados",vNumeros)
-
